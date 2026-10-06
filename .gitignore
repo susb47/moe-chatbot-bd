@@ -1,0 +1,61 @@
+# Prerequisites
+*.d
+*.sqlite3
+
+# Compiled Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables (CRITICAL: Do not commit API keys!)
+.env
+.env.local
+.env.*
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vector Databases and Local Storage (FAISS / ChromaDB)
+*.faiss
+*.pkl
+chroma_db/
+chroma/
+*.db
+
+# Hugging Face caches (if you download local models later)
+.cache/
+.huggingface/
+hf_cache/
+
+# Vercel deployment cache (for later)
+.vercel/
+# --- RAG Pipeline & Data ---
+
+# Ignore raw documents (PDFs, Word docs, etc.)
+backend/documents/*
+!backend/documents/.gitkeep  # (Optional: keep the folder structure but not the files)
+
+# Ignore Hugging Face downloaded models (Sentence Transformers cache)
+~/.cache/huggingface/
+.cache/huggingface/
+backend/data_pipeline/.cache/
+
+# Ignore FAISS indexes and metadata (These should be built locally, not committed)
+backend/app/rag/*.faiss
+backend/app/rag/*.json
+
+# Ignore PyPDF temporary files
+*.pdf
