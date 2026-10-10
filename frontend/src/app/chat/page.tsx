@@ -16,8 +16,8 @@ export default function ChatPage() {
     {
       role: "assistant",
       content:
-        "হ্যালো! আমি EduQ। বাংলাদেশ শিক্ষা মন্ত্রণালয়, শিক্ষা বোর্ড, এনসিটিবি বা পাঠ্যক্রম সংক্রান্ত যে কোনো তথ্য জানতে প্রশ্ন করতে পারেন।",
-      source: "EduQ Registry",
+        "হ্যালো! আমি EduQ। আপনার পড়াশোনা, হোমওয়ার্ক বা যেকোনো শিক্ষামূলক বিষয়ে সাহায্য করতে আমি প্রস্তুত। আপনার প্রশ্নটি লিখুন!",
+      source: "EduQ AI",
       tier: "system",
     },
   ]);
@@ -94,13 +94,13 @@ export default function ChatPage() {
           </Link>
           <div>
             <h1 className="text-xl font-bold tracking-tight flex items-center gap-2">
-              EduQ <span className="text-xs bg-emerald-800 text-emerald-200 px-2 py-0.5 rounded-full font-normal">Pilot</span>
+              EduQ <span className="text-xs bg-emerald-800 text-emerald-200 px-2 py-0.5 rounded-full font-normal">AI</span>
             </h1>
-            <p className="text-xs text-emerald-200">Ministry of Education, Bangladesh AI Assistant</p>
+            <p className="text-xs text-emerald-200">Your Smart Learning Companion</p>
           </div>
         </div>
         <div className="text-xs text-emerald-100 bg-emerald-800/80 px-3 py-1.5 rounded-lg border border-emerald-600/50">
-          ব্যানবেইস • এনসিটিবি • শিক্ষা বোর্ড
+          Smart Learning • Homework Help • Exam Prep
         </div>
       </header>
 

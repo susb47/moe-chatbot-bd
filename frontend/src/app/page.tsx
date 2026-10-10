@@ -11,10 +11,10 @@ export default function LandingPage() {
             <span className="text-4xl text-emerald-700 font-extrabold tracking-tighter">EduQ</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-emerald-900 mb-4">
-            Ministry of Education AI Assistant
+            Your Personal Education Assistant
           </h1>
           <p className="text-lg text-emerald-700 font-medium">
-            ব্যানবেইস • এনসিটিবি • শিক্ষা বোর্ড
+            Smart Learning • Homework Help • Exam Prep
           </p>
         </div>
 
@@ -23,10 +23,10 @@ export default function LandingPage() {
           <div className="absolute top-0 left-0 w-2 h-full bg-emerald-600"></div>
           <h2 className="text-2xl font-bold text-emerald-800 mb-4">Our Vision</h2>
           <p className="text-slate-600 leading-relaxed text-lg mb-4">
-            To empower every student, parent, and educator in Bangladesh with instant, bilingual access to official educational resources. EduQ bridges the information gap by providing accurate, policy-grounded guidance directly from the Ministry of Education, NCTB, and regional Education Boards.
+            To empower every student, parent, and educator with instant, bilingual access to educational support. EduQ bridges the learning gap by providing accurate guidance, step-by-step problem solving, and clear explanations across all subjects.
           </p>
           <p className="text-slate-600 leading-relaxed text-lg">
-            বাংলাদেশের প্রতিটি শিক্ষার্থী, অভিভাবক এবং শিক্ষককে শিক্ষা মন্ত্রণালয়ের নির্ভুল তথ্য, শিক্ষাক্রম এবং নীতির সাথে তাৎক্ষণিকভাবে যুক্ত করাই আমাদের লক্ষ্য।
+            শিক্ষার্থী, অভিভাবক এবং শিক্ষকদের শিক্ষায় সহায়তা করার জন্য আমাদের এই এআই অ্যাসিস্ট্যান্ট। যেকোনো বিষয়ে দ্রুত ও নির্ভুল সমাধান পেতে EduQ ব্যবহার করুন।
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function LandingPage() {
             href="/chat"
             className="inline-flex items-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-lg px-10 py-4 rounded-full shadow-md transition-all hover:-translate-y-1 hover:shadow-lg"
           >
-            Chat with Us 
+            Start Learning 
             <span className="text-xl">→</span>
           </Link>
         </div>
